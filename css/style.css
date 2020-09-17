@@ -1,0 +1,240 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+
+/* Start Navbar */
+.navbar{
+    opacity: 0.7;
+    border-bottom: 5px solid #0478b2;
+}
+.navbar ul li{
+    margin-right: 25px;
+}
+/* End Navbar */
+
+/* start Header */
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7) ), url(../images/home.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header h1,
+header .card{
+    margin-top: 150px;
+}
+
+header .card form input{
+    width: 300px;
+    padding: 5px 5px 5px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border-style: none;
+}
+header .s{
+    color: white;
+    border: 1px solid white;
+    padding: 5px 118px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+@media(max-width:1300px){
+    header .h{
+        font-size: 28px;
+    }
+
+    header .true{
+        font-size: 20px;
+        max-width: 99%;
+    }
+
+    header .card form input{
+        width: 230px; 
+    }
+    header .card .s{
+        width: 230px;
+        padding: 5px 80px;
+    }
+}
+
+@media(max-width:950px){
+    header .card{
+        margin-top: 18px;
+        margin-bottom: 20px;
+    }
+    header .card form input{
+        width: 300px; 
+    }
+    header .card .s{
+        width: 300px;
+        padding: 5px 80px;
+    }
+}
+@media(max-width:500px){
+    header .h{
+        font-size: 27px;
+        text-align: center;
+    }
+}
+@media(max-width:350px){
+    header .h{
+        font-size: 27px;
+        text-align: center;
+    }
+}
+/* End Header */
+
+/* Start Explore */
+.explore{
+    background-color: #333333;
+    padding-top: 35px;
+    color: #f8f9da;
+    height: 225px;
+}
+.explore a{
+    text-decoration: none;
+    color: #f8f9da;
+    border: 1px solid #6c757d;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+@media(max-width:600px){
+    .explore {
+        height: 260px;
+    }
+}
+@media(max-width:350px){
+    .explore {
+        height: 260px;
+    }
+}
+/* End Explore */
+
+/* Start Learn */
+.learn{
+    padding-top: 50px;
+    color: #6c757d;
+}
+.learn img{
+    border-radius: 50%;
+}
+@media(max-width:940px){
+    .learn img{
+        width: 100%;
+        margin-top: 120px;
+    }
+}
+@media(max-width:800px){
+    .learn img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .learn h3,
+    .learn p{
+        text-align: center;
+    }
+}
+@media(max-width:350px){
+    .learn img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .learn h3,
+    .learn p{
+        text-align: center;
+    }
+}
+/* End Learn */
+
+/* Start Creat */
+.creat{
+    padding-top: 35px;
+    color: #f8f9da;
+    height: 225px;
+}
+.creat a{
+    text-decoration: none;
+    color: #f8f9da;
+    border: 1px solid #6c757d;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+@media(max-width:600px){
+    .creat {
+        height: 260px;
+    }
+}
+@media(max-width:350px){
+    .creat {
+        height: 260px;
+    }
+}
+
+/* End Creat */
+
+/* Start passion */
+.passion{
+    padding-top: 50px;
+    color: white;
+    background-color: #333333;
+}
+.passion img{
+    border-radius: 50%;
+}
+@media(max-width:940px){
+    .passion img{
+        width: 100%;
+        margin-top: 120px;
+    }
+}
+@media(max-width:800px){
+    .passion img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .passion h3,
+    .lpassion p{
+        text-align: center;
+    }
+}
+@media(max-width:350px){
+    .passion img{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .passion h3,
+    .lpassion p{
+        text-align: center;
+    }
+}
+/* End passion */
+
+/* Start Footer */
+footer{
+    padding-top: 35px;
+    color: #f8f9da;
+    height: 225px;
+    background-color: #343a40;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+
+}
+/* End Footer */
